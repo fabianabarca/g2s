@@ -1,0 +1,21 @@
+Main purpose
+
+- As a researcher, I want to transform GTFS Schedule and Realtime data into a time series to test statistical and machine learning methods.
+
+Input
+
+- GTFS Schedule: .zip file with several .txt files containing csv-like GTFS data
+- GTFS Realtime snapshot: .json file or files containing 
+
+Output
+
+- A Pandas Series or DataFrame containing a multivariate time series taylored by the user to include selected variables from the GTFS Realtime specification for a selected time range.
+
+Step by Step
+
+- As a user, I want to load a .zip file containing GTFS Schedule data into a database-like object so that I have easy access to it.
+- As a user, I want to load a .zip file containing GTFS Realtime data into a database-like object containing related GTFS Schedule data so that I have easy access to it.
+As a user, I want to check the consistency between the GTFS Schedule and Realtime data so that basic errors are avoided later.
+- As a user, I want to display a summary of the contents of the database-like object so that I understand better what is contained in it.
+- As a user, I want to view the contents of any of the table-like structure into the database-like object so that I understand better what is contained in it.
+- As a user, I want to 

@@ -1,0 +1,7003 @@
+{
+    "header": {
+      "gtfs_realtime_version": "2.0",
+      "incrementality": "FULL_DATASET",
+      "timestamp": 1674319716
+    },
+    "entity": [
+      {
+        "id": "293631",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ELEVATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "State Elevator 802 (Oak Grove platform to Forest Hills, Wonderland platforms) unavailable",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Please use adjacent State Street Elevator 967.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1549051320
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70023"
+            },
+            {
+              "stop_id": "70041"
+            }
+          ]
+        }
+      },
+      {
+        "id": "301925",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Routes 210 and 238 are detoured due to construction at Quincy Adams busway. Buses will pick up/drop off on Independence Ave where customers may use the existing pedestrian pathway to access Quincy Adams Station.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Connections in both directions can be made at:\r\nFranklin St @ Water St\r\nIndependence Ave @ Verchild St (Route 230 stops)\r\nCentre St @ Liberty St\r\n\r\nMissed stops:\r\nLiberty St @ Water St (outbound)\r\nLiberty St @ Penn St (outbound)\r\nQuincy Adams (outbound)\r\nQuincy Adams (inbound)\r\nLiberty St @ Penn St (inbound)\r\nLiberty St @ Water St (inbound)\r\n\r\nLearn more at: mbta.com/southshore",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "url": {
+            "translation": [
+              {
+                "text": "https://www.mbta.com/southshore",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1554107400
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "210"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "238"
+            }
+          ]
+        }
+      },
+      {
+        "id": "352844",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "PARKING_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The two outer lanes at the Quincy Adams Garage toll plaza over Centre St are closed until further notice. Repairing the bridge is part of the South Shore Garage Project. More: https://www.mbta.com/south-shore-garages",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1578936720
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70103"
+            },
+            {
+              "stop_id": "70104"
+            },
+            {
+              "stop_id": "door-qamnl-burgin"
+            },
+            {
+              "stop_id": "door-qamnl-indep"
+            },
+            {
+              "stop_id": "door-qamnl-pickup"
+            }
+          ]
+        }
+      },
+      {
+        "id": "360721",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "PARKING_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Alewife Garage may have additional spaces taken to accelerate repairs while the demand for parking is low. Once parking demand increases, these spaces will be made available again to our riders.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1585320060
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "141"
+            },
+            {
+              "stop_id": "70061"
+            },
+            {
+              "stop_id": "9070061"
+            },
+            {
+              "stop_id": "Alewife-01"
+            },
+            {
+              "stop_id": "Alewife-02"
+            },
+            {
+              "stop_id": "door-alfcl-alewife"
+            },
+            {
+              "stop_id": "door-alfcl-busway"
+            },
+            {
+              "stop_id": "door-alfcl-cambridgepark"
+            },
+            {
+              "stop_id": "door-alfcl-russell"
+            },
+            {
+              "stop_id": "door-alfcl-steel"
+            }
+          ]
+        }
+      },
+      {
+        "id": "361304",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "BIKE_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "South Station Pedal & Park is closed due to construction. Bicycle racks are currently available on Atlantic Ave adjacent to the South Station main entrance.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "url": {
+            "translation": [
+              {
+                "text": "https://www.mbta.com/projects/south-station-transportation-center-improvements",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1586266680
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70079"
+            },
+            {
+              "stop_id": "70080"
+            },
+            {
+              "stop_id": "74611"
+            },
+            {
+              "stop_id": "74617"
+            },
+            {
+              "stop_id": "door-sstat-atlantic"
+            },
+            {
+              "stop_id": "door-sstat-bus"
+            },
+            {
+              "stop_id": "door-sstat-dewey"
+            },
+            {
+              "stop_id": "door-sstat-finctr"
+            },
+            {
+              "stop_id": "door-sstat-main"
+            },
+            {
+              "stop_id": "door-sstat-outmain"
+            },
+            {
+              "stop_id": "door-sstat-reserve"
+            },
+            {
+              "stop_id": "door-sstat-summer"
+            },
+            {
+              "stop_id": "door-sstat-usps"
+            },
+            {
+              "stop_id": "NEC-2287"
+            },
+            {
+              "stop_id": "NEC-2287-01"
+            },
+            {
+              "stop_id": "NEC-2287-02"
+            },
+            {
+              "stop_id": "NEC-2287-03"
+            },
+            {
+              "stop_id": "NEC-2287-04"
+            },
+            {
+              "stop_id": "NEC-2287-05"
+            },
+            {
+              "stop_id": "NEC-2287-06"
+            },
+            {
+              "stop_id": "NEC-2287-07"
+            },
+            {
+              "stop_id": "NEC-2287-08"
+            },
+            {
+              "stop_id": "NEC-2287-09"
+            },
+            {
+              "stop_id": "NEC-2287-10"
+            },
+            {
+              "stop_id": "NEC-2287-11"
+            },
+            {
+              "stop_id": "NEC-2287-12"
+            },
+            {
+              "stop_id": "NEC-2287-13"
+            }
+          ]
+        }
+      },
+      {
+        "id": "364390",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 325 service remains suspended until further notice. Riders can use Routes 100 or 101 to connect to the Orange Line for downtown service.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1592728200
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "325"
+            }
+          ]
+        }
+      },
+      {
+        "id": "364393",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 326 service remains suspended until further notice. Riders can use Routes 94, 95, 101, or 134 to connect to the Orange Line or Red Line for downtown service.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1592728200
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "326"
+            }
+          ]
+        }
+      },
+      {
+        "id": "364395",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 352 service remains suspended until further notice. Riders can use Route 350 to connect to the Red Line or Route 354 for service to downtown Boston and North Burlington.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1592728200
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "352"
+            }
+          ]
+        }
+      },
+      {
+        "id": "366972",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 170 service remains suspended until further notice",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1594930820
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "170"
+            }
+          ]
+        }
+      },
+      {
+        "id": "366979",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 434 service remains suspended until further notice",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1594931230
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "434"
+            }
+          ]
+        }
+      },
+      {
+        "id": "369446",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 503 service remains suspended until further notice. Route 501 is extended to serve Copley Sq/Back Bay as an alternative.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1598776200
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "503"
+            }
+          ]
+        }
+      },
+      {
+        "id": "369447",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 502 service remains suspended until further notice. For alternate service, use Route 504",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1598776200
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "502"
+            }
+          ]
+        }
+      },
+      {
+        "id": "373217",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STATION_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Hancock Street lot is closed to allow for the construction of the North Quincy Garage. As an alternative, over 300 spaces are available in the Newport Avenue lot.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected routes:\r\nRed Line",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "url": {
+            "translation": [
+              {
+                "text": "https://www.mbta.com/NorthQuincy",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1602491400
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70097"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70098"
+            }
+          ]
+        }
+      },
+      {
+        "id": "382310",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STATION_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Quincy Adams parking garage has re-opened with 500 spaces available. Additional spaces will be added as construction finishes up. Customers can access the garage via the Route 3 off ramp exit. The Burgin Parkway entrance remains closed.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Beginning November 29, the parking lot across from the station will close. Please use the garage or adjacent surface lot as an alternative.\r\n\r\nThe Quincy Adams Garage drop-off and pick-up location will remain at its location within Level 1B. \r\n\r\nThe garage will be PayByPhone / PayByPlate with no need to pay to exit. More information on how to pay for parking is available at mbta.com/parking. \r\n\r\nAffected routes:\r\nRed Line",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1612117759
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70103"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70104"
+            }
+          ]
+        }
+      },
+      {
+        "id": "384239",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 212 service remains suspended until further notice. Route 217 service operates via Billings Rd.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1615710600
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "212"
+            }
+          ]
+        }
+      },
+      {
+        "id": "384242",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 465 service remains suspended until further notice. Seek alternate service with MBTA.com/trip-planner",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1615710600
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "465"
+            }
+          ]
+        }
+      },
+      {
+        "id": "384243",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SUSPENSION",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 710 service remains suspended until further notice. Use Routes 99, 100, 101 or 134 as alternatives.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1615710600
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "710"
+            }
+          ]
+        }
+      },
+      {
+        "id": "384780",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Commuter Rail service at South Attleboro is temporarily suspended due to significant deterioration of the pedestrian overpass. Service will resume & the pedestrian overpass will reopen when the station Accessibility Improvement Project is fully completed.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Local GATRA and RIPTA bus service at the station will not be impacted. Riders may also consider Attleboro Station as a temporary alternative.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "url": {
+            "translation": [
+              {
+                "text": "https://mbta.com/soattleborostation",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1615563601
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Providence",
+              "stop_id": "NEC-1851"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Providence",
+              "stop_id": "NEC-1969"
+            }
+          ]
+        }
+      },
+      {
+        "id": "387124",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STATION_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Braintree Parking Garage has re-opened with 350 parking spots available.  Additional spaces will be added as construction finishes up. The surface lot on Ivory St will remain open as an alternate parking option.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Riders can continue to use PayByPhone or pay-by-plate with the same parking fees as other MBTA surface lots.\r\n\r\nAffected routes:\r\nRed Line",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1618943649
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70103"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70104"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70105"
+            }
+          ]
+        }
+      },
+      {
+        "id": "390223",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Courthouse Escalator 415 (Airport/Design Center platform to lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1621976880
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "74612"
+            }
+          ]
+        }
+      },
+      {
+        "id": "390224",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Courthouse Escalator 417 (Airport/Design Center platform to south lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1621976880
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "74612"
+            }
+          ]
+        }
+      },
+      {
+        "id": "391877",
+        "alert": {
+          "effect": "STOP_MOVED",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_MOVE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Haymarket Busway is closed due to construction. Routes 92, 93, 426 and 450 will board/alight on Congress St. Routes 111 and 117 will board/alight on Surface Road.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected routes:\r\n92\r\n93\r\n111\r\n117\r\n426\r\n450",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1624869000
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "111",
+              "stop_id": "8309"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "117",
+              "stop_id": "8309"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "426",
+              "stop_id": "117"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "426",
+              "stop_id": "8309"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "8993",
+              "stop_id": "117"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "8993",
+              "stop_id": "8309"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "92",
+              "stop_id": "117"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "92",
+              "stop_id": "8309"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "93",
+              "stop_id": "117"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "93",
+              "stop_id": "8309"
+            }
+          ]
+        }
+      },
+      {
+        "id": "403695",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "PARKING_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Route 128 Garage is undergoing repairs and renovations. Level 1 is currently closed to parking and can be used for pick up and drop off only. Level 2 - 4 access is available only from University Ave. This will be in place through October 2022.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1630674840
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "NEC-2173"
+            },
+            {
+              "stop_id": "NEC-2173-01"
+            },
+            {
+              "stop_id": "NEC-2173-02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "416078",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "PARKING_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Lynn Parking Garage arcade stairs 1 and 2 are closed until further notice due to structural issues. Customers may exit the garage via elevators to the ground level or by using the south stairs located on the Market street side of the garage.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Vehicular access to the upper 2 levels of the garage is restricted. The garage has sufficient parking capacity to accommodate daily demand.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1636053240
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "14748"
+            },
+            {
+              "stop_id": "ER-0115-01"
+            },
+            {
+              "stop_id": "ER-0115-02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "417161",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 34E detoured due to construction. Connect at Main St @ Stone St and 624 Washington St opp Bird Middle School.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected direction: Inbound\r\n\r\nBypassed stops:\r\nEast St @ Main St\r\nEast St @ School St\r\nEast St @ Diamond St\r\nEast St @ Eastover Rd\r\n710 East St opp Kendall St\r\nHigh Plain St @ Peach St\r\n\r\nConnections:\r\nMain St @ Stone St\r\n624 Washington St opp Bird Middle School",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1636634340
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "34E",
+              "stop_id": "93618",
+              "direction_id": 1
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "34E",
+              "stop_id": "94618",
+              "direction_id": 1
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "34E",
+              "stop_id": "95618",
+              "direction_id": 1
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "34E",
+              "stop_id": "96618",
+              "direction_id": 1
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "34E",
+              "stop_id": "97618",
+              "direction_id": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "428140",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "PARKING_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Upper Parking Lot at Worcester Station is closed with the exception to accessible parking, due to construction.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1643056860
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "WML-0442-CS"
+            }
+          ]
+        }
+      },
+      {
+        "id": "434339",
+        "alert": {
+          "effect": "STOP_MOVED",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_MOVE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The stop at Washington St @ Grove St has temporarily moved to 5223 Washington St due to construction.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected routes:\r\n34\r\n34E\r\n35",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1646645400
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "34",
+              "stop_id": "616"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "34E",
+              "stop_id": "616"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "35",
+              "stop_id": "616"
+            }
+          ]
+        }
+      },
+      {
+        "id": "435027",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Effective Mon, March 14th & until the Worcester Union Station Improvement Project is completed, passengers board & exit trains on a temporary platform at the east end of the station accessible from 45 Shrewsbury Street. Please allow for extra travel time.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected stops:\r\nWorcester",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "url": {
+            "translation": [
+              {
+                "text": "https://www.mbta.com/UnionStation",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1647246600
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Worcester",
+              "stop_id": "WML-0442-CS"
+            }
+          ]
+        }
+      },
+      {
+        "id": "435698",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Bowdoin Escalator 125 (Lobby to street) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1647353580
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70038"
+            },
+            {
+              "stop_id": "70838"
+            },
+            {
+              "stop_id": "door-bomnl-main"
+            }
+          ]
+        }
+      },
+      {
+        "id": "435808",
+        "alert": {
+          "effect": "NO_SERVICE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The following stop is closed through May 2023 due to construction: Somerville Ave @ Spring St. Customers can use the stop at Somerville Ave @ Central St or Somerville Ave @ Lowell St.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected routes:\r\n83\r\n87",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1648456200,
+              "end": 1685601000
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "83",
+              "stop_id": "2620"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "87",
+              "stop_id": "2620"
+            }
+          ]
+        }
+      },
+      {
+        "id": "437657",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ELEVATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Oak Grove Elevator 800 (Busway, Commuter Rail, parking lot to lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "A shuttle bus will be available, upon request, to transport customers between Oak Grove and Wellington. To exit, exit the train at Wellington and find station personnel or use a station call box to request the shuttle bus to Oak Grove. To board, find station personnel or use a station call box to request the shuttle bus to Wellington. Alternatively, customers may utilize the Oak Grove Elevator 744 located at the station entrance on Washington Street.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1648731540
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70036"
+            },
+            {
+              "stop_id": "door-ogmnl-banks"
+            },
+            {
+              "stop_id": "Oak Grove-01"
+            },
+            {
+              "stop_id": "Oak Grove-02"
+            },
+            {
+              "stop_id": "WR-0053-S"
+            }
+          ]
+        }
+      },
+      {
+        "id": "442792",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Broadway Escalator 372 (Unpaid lobby to street) unavailable until further notice.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1652097960
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70081"
+            },
+            {
+              "stop_id": "70082"
+            },
+            {
+              "stop_id": "door-brdwy-main"
+            }
+          ]
+        }
+      },
+      {
+        "id": "443874",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ELEVATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Courthouse Elevator 937 (South Station platform to lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "To exit, exit the bus at South Station and proceed to the Airport/Design Center/Chelsea platform, then take an SL1, SL2 or SL3 bus outbound to Courthouse and use Courthouse Elevator 938. To board, use Courthouse Elevator 938 to access the Airport/Design Center/Chelsea platform. Take an SL1, SL2 or SL3 bus outbound to World Trade Center, then proceed to the South Station platform and transfer to an inbound SL1, SL2 or SL3 bus.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1652696820
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "74616"
+            }
+          ]
+        }
+      },
+      {
+        "id": "445294",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 50 detoured due to construction. Nearest outbound connections are West St @ Austin St or River St @ Hyde Park Ave. Nearest inbound connections are Hyde Park Ave @ Oak St or West St @ Austin St.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected stops:\r\nAlwin St @ Dedham Pkwy (outbound)\r\nAustin St @ Myopia Rd (outbound)\r\nAlwin St @ Leighton Rd (outbound)\r\nAlwin St @ Turtle Pond Pkwy (outbound)\r\nAustin St @ Chestnut St (outbound)\r\nAustin St @ Gordon Ave (outbound)\r\n272 Reservation Rd opp Brainard St (outbound)\r\nReservation Rd @ Thompson St (outbound)\r\nReservation Rd @ River St (outbound)\r\nRiver St @ Adams St (outbound)\r\nRiver St @ Radford Pl (outbound)\r\nRiver St @ Hyde Park Ave (inbound)\r\nGordon Ave @ Summer St (inbound)\r\n11 Summer St (inbound)\r\n61 Summer St opp Parrott St (inbound)\r\nSummer St @ West St (inbound)",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1653420715
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "12783"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "2783"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "2784"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "2785"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "2786"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "2815"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "2816"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "2817"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6523"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6524"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6526"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6527"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6528"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6529"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6530"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4050",
+              "stop_id": "6531"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "12783"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "2783"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "2784"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "2785"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "2786"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "2815"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "2816"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "2817"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6523"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6524"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6526"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6527"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6528"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6529"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6530"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "50",
+              "stop_id": "6531"
+            }
+          ]
+        }
+      },
+      {
+        "id": "445295",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 33 detoured due to construction. Inbound connections can be made at Reservation Rd @ River St & Cleary Sq. Outbound connections will be on the inbound route. There is no service along River St between Reservation Rd and Hyde Park Ave.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected stops:\r\nRiver St @ Hyde Park Ave (outbound)\r\nHyde Park Ave @ Westminster St (outbound)\r\nHyde Park Ave @ West St (outbound)\r\nHyde Park Ave opp Webster St (outbound)\r\nHyde Park Ave @ Winthrop St (outbound)\r\nReservation Rd @ River St (outbound)\r\nRiver St @ Perkins Ave (outbound)\r\n229 Reservation Rd opp Thompson St (outbound)\r\nReservation Rd @ Brainard St (outbound)\r\nRiver St @ Winslow St (outbound)\r\nRiver St @ Reservation Rd (outbound)\r\nAlwin St @ Stonehill Rd (outbound)\r\nAlwin St opp Leighton Rd (outbound)\r\nRiver St @ Church St (outbound)\r\nOpposite 1608 River St (outbound)\r\nAlwin St @ Dedham Pkwy (outbound)\r\nRiver St @ Turtle Pond Pkwy (outbound)\r\nDedham Pkwy opp Georgetowne Dr (outbound)\r\nTurtle Pond Pkwy @ Alwin St (outbound)\r\nTurtle Pond Pkwy opp Bajko Rink (outbound)\r\nTurtle Pond Pkwy @ Fairview Ave (outbound)\r\nRiver St opp Neponset Valley Pkwy (outbound)\r\nNeponset Valley Parkway @ Readville St (outbound)\r\n1799 River St opp Norton St (outbound)\r\nNeponset Valley Pkwy @",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1653420776
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "18975"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "26531"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "2783"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "42820"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6466"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6467"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6468"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6470"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6471"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6472"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6473"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6474"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6476"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6505"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6507"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6508"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6509"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6512"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6513"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6514"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6515"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6516"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6517"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6519"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6522"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6523"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6524"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6526"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6527"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6528"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6529"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6530"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "6531"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8328"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8329"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8330"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8331"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8332"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8333"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8335"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8337"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8343"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8344"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8940"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8941"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "89410"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "89411"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "89412"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "89413"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "89414"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8942"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8943"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8944"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8946"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8947"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8948"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8949"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8952"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8954"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8955"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8959"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8960"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8970"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8971"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8973"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "3233",
+              "stop_id": "8975"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "18975"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "26531"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "2783"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "42820"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6466"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6467"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6468"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6470"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6471"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6472"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6473"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6474"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6476"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6505"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6507"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6508"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6509"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6512"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6513"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6514"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6515"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6516"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6517"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6519"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6522"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6523"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6524"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6526"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6527"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6528"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6529"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6530"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "6531"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8328"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8329"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8330"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8331"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8332"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8333"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8335"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8337"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8343"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8344"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8940"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8941"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "89410"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "89411"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "89412"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "89413"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "89414"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8942"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8943"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8944"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8946"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8947"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8948"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8949"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8952"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8954"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8955"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8959"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8960"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8970"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8971"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8973"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "33",
+              "stop_id": "8975"
+            }
+          ]
+        }
+      },
+      {
+        "id": "453188",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 216 detoured for paving. Connections can be made at Taffrail Rd @ Bicknell St. & Bicknell St @ Yardarm Ln.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected direction: Outbound\r\n\r\nAffected stops:\r\nBicknell St @ O'Brien Towers Driveway\r\nO'Brien Towers\r\nO'Brien Towers Driveway @ Bicknell St\r\nBicknell St @ Binnacle Lane",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1658133000
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "216",
+              "stop_id": "3307",
+              "direction_id": 0
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "216",
+              "stop_id": "3308",
+              "direction_id": 0
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "216",
+              "stop_id": "3309",
+              "direction_id": 0
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "216",
+              "stop_id": "3310",
+              "direction_id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "453816",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 556 inbound is bypassing 184 Hammond St due to construction. Connect at Tomlin St @ Summit St & Hammond St @ Plympton St.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected direction: Inbound\r\n\r\nAffected stops:\r\n184 Hammond St",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1674475200,
+              "end": 1674504000
+            },
+            {
+              "start": 1674561600,
+              "end": 1674590400
+            },
+            {
+              "start": 1674648000,
+              "end": 1674676800
+            },
+            {
+              "start": 1674734400,
+              "end": 1674763200
+            },
+            {
+              "start": 1674820800,
+              "end": 1674849600
+            },
+            {
+              "start": 1675080000,
+              "end": 1675108800
+            },
+            {
+              "start": 1675166400,
+              "end": 1675195200
+            },
+            {
+              "start": 1675252800,
+              "end": 1675281600
+            },
+            {
+              "start": 1675339200,
+              "end": 1675368000
+            },
+            {
+              "start": 1675425600,
+              "end": 1675454400
+            },
+            {
+              "start": 1675684800,
+              "end": 1675713600
+            },
+            {
+              "start": 1675771200,
+              "end": 1675800000
+            },
+            {
+              "start": 1675857600,
+              "end": 1675886400
+            },
+            {
+              "start": 1675944000,
+              "end": 1675972800
+            },
+            {
+              "start": 1676030400,
+              "end": 1676059200
+            },
+            {
+              "start": 1676289600,
+              "end": 1676318400
+            },
+            {
+              "start": 1676376000,
+              "end": 1676404800
+            },
+            {
+              "start": 1676462400,
+              "end": 1676491200
+            },
+            {
+              "start": 1676548800,
+              "end": 1676577600
+            },
+            {
+              "start": 1676635200,
+              "end": 1676664000
+            },
+            {
+              "start": 1676894400,
+              "end": 1676923200
+            },
+            {
+              "start": 1676980800,
+              "end": 1677009600
+            },
+            {
+              "start": 1677067200,
+              "end": 1677096000
+            },
+            {
+              "start": 1677153600,
+              "end": 1677182400
+            },
+            {
+              "start": 1677240000,
+              "end": 1677268800
+            },
+            {
+              "start": 1677499200,
+              "end": 1677528000
+            },
+            {
+              "start": 1677585600,
+              "end": 1677614400
+            },
+            {
+              "start": 1677672000,
+              "end": 1677700800
+            },
+            {
+              "start": 1677758400,
+              "end": 1677787200
+            },
+            {
+              "start": 1677844800,
+              "end": 1677873600
+            },
+            {
+              "start": 1678104000,
+              "end": 1678132800
+            },
+            {
+              "start": 1678190400,
+              "end": 1678219200
+            },
+            {
+              "start": 1678276800,
+              "end": 1678305600
+            },
+            {
+              "start": 1678363200,
+              "end": 1678392000
+            },
+            {
+              "start": 1678449600,
+              "end": 1678478400
+            },
+            {
+              "start": 1678705200,
+              "end": 1678734000
+            },
+            {
+              "start": 1678791600,
+              "end": 1678820400
+            },
+            {
+              "start": 1678878000,
+              "end": 1678906800
+            },
+            {
+              "start": 1678964400,
+              "end": 1678993200
+            },
+            {
+              "start": 1679050800,
+              "end": 1679079600
+            },
+            {
+              "start": 1679310000,
+              "end": 1679338800
+            },
+            {
+              "start": 1679396400,
+              "end": 1679425200
+            },
+            {
+              "start": 1679482800,
+              "end": 1679511600
+            },
+            {
+              "start": 1679569200,
+              "end": 1679598000
+            },
+            {
+              "start": 1679655600,
+              "end": 1679684400
+            },
+            {
+              "start": 1679914800,
+              "end": 1679943600
+            },
+            {
+              "start": 1680001200,
+              "end": 1680030000
+            },
+            {
+              "start": 1680087600,
+              "end": 1680116400
+            },
+            {
+              "start": 1680174000,
+              "end": 1680202800
+            },
+            {
+              "start": 1680260400,
+              "end": 1680289200
+            },
+            {
+              "start": 1680519600,
+              "end": 1680548400
+            },
+            {
+              "start": 1680606000,
+              "end": 1680634800
+            },
+            {
+              "start": 1680692400,
+              "end": 1680721200
+            },
+            {
+              "start": 1680778800,
+              "end": 1680807600
+            },
+            {
+              "start": 1680865200,
+              "end": 1680894000
+            },
+            {
+              "start": 1681124400,
+              "end": 1681153200
+            },
+            {
+              "start": 1681210800,
+              "end": 1681239600
+            },
+            {
+              "start": 1681297200,
+              "end": 1681326000
+            },
+            {
+              "start": 1681383600,
+              "end": 1681412400
+            },
+            {
+              "start": 1681470000,
+              "end": 1681498800
+            },
+            {
+              "start": 1681729200,
+              "end": 1681758000
+            },
+            {
+              "start": 1681815600,
+              "end": 1681844400
+            },
+            {
+              "start": 1681902000,
+              "end": 1681930800
+            },
+            {
+              "start": 1681988400,
+              "end": 1682017200
+            },
+            {
+              "start": 1682074800,
+              "end": 1682103600
+            },
+            {
+              "start": 1682334000,
+              "end": 1682362800
+            },
+            {
+              "start": 1682420400,
+              "end": 1682449200
+            },
+            {
+              "start": 1682506800,
+              "end": 1682535600
+            },
+            {
+              "start": 1682593200,
+              "end": 1682622000
+            },
+            {
+              "start": 1682679600,
+              "end": 1682708400
+            },
+            {
+              "start": 1682938800,
+              "end": 1682967600
+            },
+            {
+              "start": 1683025200,
+              "end": 1683054000
+            },
+            {
+              "start": 1683111600,
+              "end": 1683140400
+            },
+            {
+              "start": 1683198000,
+              "end": 1683226800
+            },
+            {
+              "start": 1683284400,
+              "end": 1683313200
+            },
+            {
+              "start": 1683543600,
+              "end": 1683572400
+            },
+            {
+              "start": 1683630000,
+              "end": 1683658800
+            },
+            {
+              "start": 1683716400,
+              "end": 1683745200
+            },
+            {
+              "start": 1683802800,
+              "end": 1683831600
+            },
+            {
+              "start": 1683889200,
+              "end": 1683918000
+            },
+            {
+              "start": 1684148400,
+              "end": 1684177200
+            },
+            {
+              "start": 1684234800,
+              "end": 1684263600
+            },
+            {
+              "start": 1684321200,
+              "end": 1684350000
+            },
+            {
+              "start": 1684407600,
+              "end": 1684436400
+            },
+            {
+              "start": 1684494000,
+              "end": 1684522800
+            },
+            {
+              "start": 1684753200,
+              "end": 1684782000
+            },
+            {
+              "start": 1684839600,
+              "end": 1684868400
+            },
+            {
+              "start": 1684926000,
+              "end": 1684954800
+            },
+            {
+              "start": 1685012400,
+              "end": 1685041200
+            },
+            {
+              "start": 1685098800,
+              "end": 1685127600
+            },
+            {
+              "start": 1685358000,
+              "end": 1685386800
+            },
+            {
+              "start": 1685444400,
+              "end": 1685473200
+            },
+            {
+              "start": 1685530800,
+              "end": 1685559600
+            },
+            {
+              "start": 1685617200,
+              "end": 1685646000
+            },
+            {
+              "start": 1685703600,
+              "end": 1685732400
+            },
+            {
+              "start": 1685962800,
+              "end": 1685991600
+            },
+            {
+              "start": 1686049200,
+              "end": 1686078000
+            },
+            {
+              "start": 1686135600,
+              "end": 1686164400
+            },
+            {
+              "start": 1686222000,
+              "end": 1686250800
+            },
+            {
+              "start": 1686308400,
+              "end": 1686337200
+            },
+            {
+              "start": 1686567600,
+              "end": 1686596400
+            },
+            {
+              "start": 1686654000,
+              "end": 1686682800
+            },
+            {
+              "start": 1686740400,
+              "end": 1686769200
+            },
+            {
+              "start": 1686826800,
+              "end": 1686855600
+            },
+            {
+              "start": 1686913200,
+              "end": 1686942000
+            },
+            {
+              "start": 1687172400,
+              "end": 1687201200
+            },
+            {
+              "start": 1687258800,
+              "end": 1687287600
+            },
+            {
+              "start": 1687345200,
+              "end": 1687374000
+            },
+            {
+              "start": 1687431600,
+              "end": 1687460400
+            },
+            {
+              "start": 1687518000,
+              "end": 1687546800
+            },
+            {
+              "start": 1687777200,
+              "end": 1687806000
+            },
+            {
+              "start": 1687863600,
+              "end": 1687892400
+            },
+            {
+              "start": 1687950000,
+              "end": 1687978800
+            },
+            {
+              "start": 1688036400,
+              "end": 1688065200
+            },
+            {
+              "start": 1688122800,
+              "end": 1688151600
+            },
+            {
+              "start": 1688382000,
+              "end": 1688410800
+            },
+            {
+              "start": 1688468400,
+              "end": 1688497200
+            },
+            {
+              "start": 1688554800,
+              "end": 1688583600
+            },
+            {
+              "start": 1688641200,
+              "end": 1688670000
+            },
+            {
+              "start": 1688727600,
+              "end": 1688756400
+            },
+            {
+              "start": 1688986800,
+              "end": 1689015600
+            },
+            {
+              "start": 1689073200,
+              "end": 1689102000
+            },
+            {
+              "start": 1689159600,
+              "end": 1689188400
+            },
+            {
+              "start": 1689246000,
+              "end": 1689274800
+            },
+            {
+              "start": 1689332400,
+              "end": 1689361200
+            },
+            {
+              "start": 1689591600,
+              "end": 1689620400
+            },
+            {
+              "start": 1689678000,
+              "end": 1689706800
+            },
+            {
+              "start": 1689764400,
+              "end": 1689793200
+            },
+            {
+              "start": 1689850800,
+              "end": 1689879600
+            },
+            {
+              "start": 1689937200,
+              "end": 1689966000
+            },
+            {
+              "start": 1690196400,
+              "end": 1690225200
+            },
+            {
+              "start": 1690282800,
+              "end": 1690311600
+            },
+            {
+              "start": 1690369200,
+              "end": 1690398000
+            },
+            {
+              "start": 1690455600,
+              "end": 1690484400
+            },
+            {
+              "start": 1690542000,
+              "end": 1690570800
+            },
+            {
+              "start": 1690801200,
+              "end": 1690830000
+            },
+            {
+              "start": 1690887600,
+              "end": 1690916400
+            },
+            {
+              "start": 1690974000,
+              "end": 1691002800
+            },
+            {
+              "start": 1691060400,
+              "end": 1691089200
+            },
+            {
+              "start": 1691146800,
+              "end": 1691175600
+            },
+            {
+              "start": 1691406000,
+              "end": 1691434800
+            },
+            {
+              "start": 1691492400,
+              "end": 1691521200
+            },
+            {
+              "start": 1691578800,
+              "end": 1691607600
+            },
+            {
+              "start": 1691665200,
+              "end": 1691694000
+            },
+            {
+              "start": 1691751600,
+              "end": 1691780400
+            },
+            {
+              "start": 1692010800,
+              "end": 1692039600
+            },
+            {
+              "start": 1692097200,
+              "end": 1692126000
+            },
+            {
+              "start": 1692183600,
+              "end": 1692212400
+            },
+            {
+              "start": 1692270000,
+              "end": 1692298800
+            },
+            {
+              "start": 1692356400,
+              "end": 1692385200
+            },
+            {
+              "start": 1692615600,
+              "end": 1692644400
+            },
+            {
+              "start": 1692702000,
+              "end": 1692730800
+            },
+            {
+              "start": 1692788400,
+              "end": 1692817200
+            },
+            {
+              "start": 1692874800,
+              "end": 1692903600
+            },
+            {
+              "start": 1692961200,
+              "end": 1692990000
+            },
+            {
+              "start": 1693220400,
+              "end": 1693249200
+            },
+            {
+              "start": 1693306800,
+              "end": 1693335600
+            },
+            {
+              "start": 1693393200,
+              "end": 1693422000
+            },
+            {
+              "start": 1693479600,
+              "end": 1693508400
+            },
+            {
+              "start": 1693566000,
+              "end": 1693594800
+            },
+            {
+              "start": 1693825200,
+              "end": 1693854000
+            },
+            {
+              "start": 1693911600,
+              "end": 1693940400
+            },
+            {
+              "start": 1693998000,
+              "end": 1694026800
+            },
+            {
+              "start": 1694084400,
+              "end": 1694113200
+            },
+            {
+              "start": 1694170800,
+              "end": 1694199600
+            },
+            {
+              "start": 1694430000,
+              "end": 1694458800
+            },
+            {
+              "start": 1694516400,
+              "end": 1694545200
+            },
+            {
+              "start": 1694602800,
+              "end": 1694631600
+            },
+            {
+              "start": 1694689200,
+              "end": 1694718000
+            },
+            {
+              "start": 1694775600,
+              "end": 1694804400
+            },
+            {
+              "start": 1695034800,
+              "end": 1695063600
+            },
+            {
+              "start": 1695121200,
+              "end": 1695150000
+            },
+            {
+              "start": 1695207600,
+              "end": 1695236400
+            },
+            {
+              "start": 1695294000,
+              "end": 1695322800
+            },
+            {
+              "start": 1695380400,
+              "end": 1695409200
+            },
+            {
+              "start": 1695639600,
+              "end": 1695668400
+            },
+            {
+              "start": 1695726000,
+              "end": 1695754800
+            },
+            {
+              "start": 1695812400,
+              "end": 1695841200
+            },
+            {
+              "start": 1695898800,
+              "end": 1695927600
+            },
+            {
+              "start": 1695985200,
+              "end": 1696014000
+            },
+            {
+              "start": 1696244400,
+              "end": 1696273200
+            },
+            {
+              "start": 1696330800,
+              "end": 1696359600
+            },
+            {
+              "start": 1696417200,
+              "end": 1696446000
+            },
+            {
+              "start": 1696503600,
+              "end": 1696532400
+            },
+            {
+              "start": 1696590000,
+              "end": 1696618800
+            },
+            {
+              "start": 1696849200,
+              "end": 1696878000
+            },
+            {
+              "start": 1696935600,
+              "end": 1696964400
+            },
+            {
+              "start": 1697022000,
+              "end": 1697050800
+            },
+            {
+              "start": 1697108400,
+              "end": 1697137200
+            },
+            {
+              "start": 1697194800,
+              "end": 1697223600
+            },
+            {
+              "start": 1697454000,
+              "end": 1697482800
+            },
+            {
+              "start": 1697540400,
+              "end": 1697569200
+            },
+            {
+              "start": 1697626800,
+              "end": 1697655600
+            },
+            {
+              "start": 1697713200,
+              "end": 1697742000
+            },
+            {
+              "start": 1697799600,
+              "end": 1697828400
+            },
+            {
+              "start": 1698058800,
+              "end": 1698087600
+            },
+            {
+              "start": 1698145200,
+              "end": 1698174000
+            },
+            {
+              "start": 1698231600,
+              "end": 1698260400
+            },
+            {
+              "start": 1698318000,
+              "end": 1698346800
+            },
+            {
+              "start": 1698404400,
+              "end": 1698433200
+            },
+            {
+              "start": 1698663600,
+              "end": 1698692400
+            },
+            {
+              "start": 1698750000,
+              "end": 1698778800
+            },
+            {
+              "start": 1698836400,
+              "end": 1698865200
+            },
+            {
+              "start": 1698922800,
+              "end": 1698951600
+            },
+            {
+              "start": 1699009200,
+              "end": 1699038000
+            },
+            {
+              "start": 1699272000,
+              "end": 1699300800
+            },
+            {
+              "start": 1699358400,
+              "end": 1699387200
+            },
+            {
+              "start": 1699444800,
+              "end": 1699473600
+            },
+            {
+              "start": 1699531200,
+              "end": 1699560000
+            },
+            {
+              "start": 1699617600,
+              "end": 1699646400
+            },
+            {
+              "start": 1699876800,
+              "end": 1699905600
+            },
+            {
+              "start": 1699963200,
+              "end": 1699992000
+            },
+            {
+              "start": 1700049600,
+              "end": 1700078400
+            },
+            {
+              "start": 1700136000,
+              "end": 1700164800
+            },
+            {
+              "start": 1700222400,
+              "end": 1700251200
+            },
+            {
+              "start": 1700481600,
+              "end": 1700510400
+            },
+            {
+              "start": 1700568000,
+              "end": 1700596800
+            },
+            {
+              "start": 1700654400,
+              "end": 1700683200
+            },
+            {
+              "start": 1700740800,
+              "end": 1700769600
+            },
+            {
+              "start": 1700827200,
+              "end": 1700856000
+            },
+            {
+              "start": 1701086400,
+              "end": 1701115200
+            },
+            {
+              "start": 1701172800,
+              "end": 1701201600
+            },
+            {
+              "start": 1701259200,
+              "end": 1701288000
+            },
+            {
+              "start": 1701345600,
+              "end": 1701374400
+            },
+            {
+              "start": 1701432000,
+              "end": 1701460800
+            },
+            {
+              "start": 1701691200,
+              "end": 1701720000
+            },
+            {
+              "start": 1701777600,
+              "end": 1701806400
+            },
+            {
+              "start": 1701864000,
+              "end": 1701892800
+            },
+            {
+              "start": 1701950400,
+              "end": 1701979200
+            },
+            {
+              "start": 1702036800,
+              "end": 1702065600
+            },
+            {
+              "start": 1702296000,
+              "end": 1702324800
+            },
+            {
+              "start": 1702382400,
+              "end": 1702411200
+            },
+            {
+              "start": 1702468800,
+              "end": 1702497600
+            },
+            {
+              "start": 1702555200,
+              "end": 1702584000
+            },
+            {
+              "start": 1702641600,
+              "end": 1702670400
+            },
+            {
+              "start": 1702900800,
+              "end": 1702929600
+            },
+            {
+              "start": 1702987200,
+              "end": 1703016000
+            },
+            {
+              "start": 1703073600,
+              "end": 1703102400
+            },
+            {
+              "start": 1703160000,
+              "end": 1703188800
+            },
+            {
+              "start": 1703246400,
+              "end": 1703275200
+            },
+            {
+              "start": 1703505600,
+              "end": 1703534400
+            },
+            {
+              "start": 1703592000,
+              "end": 1703620800
+            },
+            {
+              "start": 1703678400,
+              "end": 1703707200
+            },
+            {
+              "start": 1703764800,
+              "end": 1703793600
+            },
+            {
+              "start": 1703851200,
+              "end": 1703880000
+            },
+            {
+              "start": 1704110400,
+              "end": 1704139200
+            },
+            {
+              "start": 1704196800,
+              "end": 1704225600
+            },
+            {
+              "start": 1704283200,
+              "end": 1704312000
+            },
+            {
+              "start": 1704369600,
+              "end": 1704398400
+            },
+            {
+              "start": 1704456000,
+              "end": 1704484800
+            },
+            {
+              "start": 1704715200,
+              "end": 1704744000
+            },
+            {
+              "start": 1704801600,
+              "end": 1704830400
+            },
+            {
+              "start": 1704888000,
+              "end": 1704916800
+            },
+            {
+              "start": 1704974400,
+              "end": 1705003200
+            },
+            {
+              "start": 1705060800,
+              "end": 1705089600
+            },
+            {
+              "start": 1705320000,
+              "end": 1705348800
+            },
+            {
+              "start": 1705406400,
+              "end": 1705435200
+            },
+            {
+              "start": 1705492800,
+              "end": 1705521600
+            },
+            {
+              "start": 1705579200,
+              "end": 1705608000
+            },
+            {
+              "start": 1705665600,
+              "end": 1705694400
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "556",
+              "stop_id": "77241",
+              "direction_id": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "454058",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 450 inbound trips departing Salem at 10:15 PM and 11:15 PM on Fridays will use the Ted Williams Tunnel to get to Haymarket Station. This detour is necessary due to the weekend closure of the Sumner Tunnel for MassDOT maintenance.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1674360000,
+              "end": 1674372600
+            },
+            {
+              "start": 1674446400,
+              "end": 1674459000
+            },
+            {
+              "start": 1674878400,
+              "end": 1674891000
+            },
+            {
+              "start": 1674964800,
+              "end": 1674977400
+            },
+            {
+              "start": 1675051200,
+              "end": 1675063800
+            },
+            {
+              "start": 1675483200,
+              "end": 1675495800
+            },
+            {
+              "start": 1675569600,
+              "end": 1675582200
+            },
+            {
+              "start": 1675656000,
+              "end": 1675668600
+            },
+            {
+              "start": 1676088000,
+              "end": 1676100600
+            },
+            {
+              "start": 1676174400,
+              "end": 1676187000
+            },
+            {
+              "start": 1676260800,
+              "end": 1676273400
+            },
+            {
+              "start": 1676692800,
+              "end": 1676705400
+            },
+            {
+              "start": 1676779200,
+              "end": 1676791800
+            },
+            {
+              "start": 1676865600,
+              "end": 1676878200
+            },
+            {
+              "start": 1677297600,
+              "end": 1677310200
+            },
+            {
+              "start": 1677384000,
+              "end": 1677396600
+            },
+            {
+              "start": 1677470400,
+              "end": 1677483000
+            },
+            {
+              "start": 1677902400,
+              "end": 1677915000
+            },
+            {
+              "start": 1677988800,
+              "end": 1678001400
+            },
+            {
+              "start": 1678075200,
+              "end": 1678087800
+            },
+            {
+              "start": 1678507200,
+              "end": 1678519800
+            },
+            {
+              "start": 1678593600,
+              "end": 1678606200
+            },
+            {
+              "start": 1678676400,
+              "end": 1678689000
+            },
+            {
+              "start": 1679108400,
+              "end": 1679121000
+            },
+            {
+              "start": 1679194800,
+              "end": 1679207400
+            },
+            {
+              "start": 1679281200,
+              "end": 1679293800
+            },
+            {
+              "start": 1679713200,
+              "end": 1679725800
+            },
+            {
+              "start": 1679799600,
+              "end": 1679812200
+            },
+            {
+              "start": 1679886000,
+              "end": 1679898600
+            },
+            {
+              "start": 1680318000,
+              "end": 1680330600
+            },
+            {
+              "start": 1680404400,
+              "end": 1680417000
+            },
+            {
+              "start": 1680490800,
+              "end": 1680503400
+            },
+            {
+              "start": 1680922800,
+              "end": 1680935400
+            },
+            {
+              "start": 1681009200,
+              "end": 1681021800
+            },
+            {
+              "start": 1681095600,
+              "end": 1681108200
+            },
+            {
+              "start": 1681527600,
+              "end": 1681540200
+            },
+            {
+              "start": 1681614000,
+              "end": 1681626600
+            },
+            {
+              "start": 1681700400,
+              "end": 1681713000
+            },
+            {
+              "start": 1682132400,
+              "end": 1682145000
+            },
+            {
+              "start": 1682218800,
+              "end": 1682231400
+            },
+            {
+              "start": 1682305200,
+              "end": 1682317800
+            },
+            {
+              "start": 1682737200,
+              "end": 1682749800
+            },
+            {
+              "start": 1682823600,
+              "end": 1682836200
+            },
+            {
+              "start": 1682910000,
+              "end": 1682922600
+            },
+            {
+              "start": 1683342000,
+              "end": 1683354600
+            },
+            {
+              "start": 1683428400,
+              "end": 1683441000
+            },
+            {
+              "start": 1683514800,
+              "end": 1683527400
+            },
+            {
+              "start": 1683946800,
+              "end": 1683959400
+            },
+            {
+              "start": 1684033200,
+              "end": 1684045800
+            },
+            {
+              "start": 1684119600,
+              "end": 1684132200
+            },
+            {
+              "start": 1684551600,
+              "end": 1684564200
+            },
+            {
+              "start": 1684638000,
+              "end": 1684650600
+            },
+            {
+              "start": 1684724400,
+              "end": 1684737000
+            },
+            {
+              "start": 1685156400,
+              "end": 1685169000
+            },
+            {
+              "start": 1685242800,
+              "end": 1685255400
+            },
+            {
+              "start": 1685329200,
+              "end": 1685341800
+            },
+            {
+              "start": 1685761200,
+              "end": 1685773800
+            },
+            {
+              "start": 1685847600,
+              "end": 1685860200
+            },
+            {
+              "start": 1685934000,
+              "end": 1685946600
+            },
+            {
+              "start": 1686366000,
+              "end": 1686378600
+            },
+            {
+              "start": 1686452400,
+              "end": 1686465000
+            },
+            {
+              "start": 1686538800,
+              "end": 1686551400
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "450"
+            }
+          ]
+        }
+      },
+      {
+        "id": "454798",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "CT3, 8 and 47 notice: The stop at 88 E Newton St has closed for construction. Passengers can use the stop at Harrison Ave @ E Newton St.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1663362088
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "47"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "708"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "8"
+            }
+          ]
+        }
+      },
+      {
+        "id": "459888",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "BIKE_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The door to enter the Forest Hills Pedal and Park is not functioning. We are working to have it addressed as quickly as possible,",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1661870340
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "10642"
+            },
+            {
+              "stop_id": "70001"
+            },
+            {
+              "stop_id": "875"
+            },
+            {
+              "stop_id": "door-forhl-arborway"
+            },
+            {
+              "stop_id": "door-forhl-lower"
+            },
+            {
+              "stop_id": "door-forhl-south"
+            },
+            {
+              "stop_id": "door-forhl-upper"
+            },
+            {
+              "stop_id": "Forest Hills-01"
+            },
+            {
+              "stop_id": "Forest Hills-02"
+            },
+            {
+              "stop_id": "NEC-2237"
+            },
+            {
+              "stop_id": "NEC-2237-03"
+            },
+            {
+              "stop_id": "NEC-2237-05"
+            }
+          ]
+        }
+      },
+      {
+        "id": "460419",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 137 inbound is detoured due to water main work and is omitting Washington St @ Eliot St. Connections can be made at Walkers Brook Dr @ New Crossing Rd or Reading Depot.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1662123591
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "137",
+              "stop_id": "9300",
+              "direction_id": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "462756",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Effective October 1st, Lynn Station is closed in order to be rebuilt as part of the Lynn Commuter Rail Station Improvements Project. A free shuttle bus service is provided between Lynn and Swampscott until a temporary platform is built.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "During the station closure, riders may use Bus Routes 441/442 and 455 from Lynn to connect to Wonderland station for continued Blue Line subway service into Boston.\r\n\r\nAlthough Swampscott is a Zone 3 station, Lynn riders who board at Swampscott may purchase Zone 2 tickets and passes.\r\n\r\nFor more info: MBTA.com/projects/lynn-commuter-rail-station-improvements \r\n\r\n\r\n\r\nAffected stops:\r\nLynn",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "url": {
+            "translation": [
+              {
+                "text": "https://mbta.com/lynnshuttle",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1663352580
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Newburyport"
+            }
+          ]
+        }
+      },
+      {
+        "id": "463480",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Sullivan Square Escalator 307 (Forest Hills platform to paid lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1663792620
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70030"
+            },
+            {
+              "stop_id": "70031"
+            },
+            {
+              "stop_id": "door-sull-main"
+            }
+          ]
+        }
+      },
+      {
+        "id": "463484",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Community College Escalator 305 (Platform to paid lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1663792740
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70028"
+            },
+            {
+              "stop_id": "70029"
+            },
+            {
+              "stop_id": "door-ccmnl-main"
+            }
+          ]
+        }
+      },
+      {
+        "id": "463485",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Sullivan Square Escalator 308 (Oak Grove platform to paid lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1663792740
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70030"
+            },
+            {
+              "stop_id": "70031"
+            },
+            {
+              "stop_id": "door-sull-main"
+            }
+          ]
+        }
+      },
+      {
+        "id": "474052",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STATION_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Access to Sydney St from the south side of JFK/UMass station is closed. Customers can use Old Colony Ave/busway or the Sydney St entrance south of Columbia Rd.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1669044420
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70085"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70086"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70095"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Red",
+              "stop_id": "70096"
+            }
+          ]
+        }
+      },
+      {
+        "id": "475031",
+        "alert": {
+          "effect": "NO_SERVICE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Route 553/554 stop at Elm St @ Washington St has permanently closed. Please use the stops at Washington St @ Cherry St or Elm St @ Webster St as alternatives.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1671355800,
+              "end": 1676705400
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "553",
+              "stop_id": "7622"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "554",
+              "stop_id": "7622"
+            }
+          ]
+        }
+      },
+      {
+        "id": "475034",
+        "alert": {
+          "effect": "STOP_MOVED",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_MOVE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The outbound stop at South Bay Mall @ Target has permanently moved west on Allstate Rd to across from the inbound stop at South Bay Mall @ Target.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected routes:\r\n8\r\n10\r\n16",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1670837400,
+              "end": 1676100600
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "10",
+              "stop_id": "11241"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "16",
+              "stop_id": "11241"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "8",
+              "stop_id": "11241"
+            }
+          ]
+        }
+      },
+      {
+        "id": "476910",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Green Line Extension riders will need to validate their fare prior to boarding at a fare vending machine. Please see station personnel if you need assistance.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected stops:\r\nMedford/Tufts\r\nUnion Square\r\nBall Square\r\nMagoun Square\r\nGilman Square\r\nEast Somerville\r\nLechmere",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1670837400
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-D"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-E"
+            }
+          ]
+        }
+      },
+      {
+        "id": "477831",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Alewife Escalator 353 (Main concourse to busway) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1671207571
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "141"
+            },
+            {
+              "stop_id": "70061"
+            },
+            {
+              "stop_id": "Alewife-01"
+            },
+            {
+              "stop_id": "Alewife-02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "477973",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ELEVATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "North Station Elevator 731 (Passageway to Causeway Street) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "To exit, use North Station Elevator 912 located in the lobby to access the corner of Haverhill St and Causeway St. To board, cross Causeway St, and at the corner of Haverhill St and Causeway St, use North Station Elevator 912 to access the lobby.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1671245011
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70026"
+            },
+            {
+              "stop_id": "70027"
+            },
+            {
+              "stop_id": "70205"
+            },
+            {
+              "stop_id": "70206"
+            },
+            {
+              "stop_id": "door-north-causewaye"
+            }
+          ]
+        }
+      },
+      {
+        "id": "478246",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ACCESS_ISSUE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Columbia Rd entrance and access to Sydney St from the south side of the station is closed. Customers can use Old Colony Ave/busway or the Sydney St entrance south of Columbia Rd.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Accessible van service is available to transport riders between the Columbia Rd entrance and the JFK/UMass busway during the concourse closure. Riders should see station personnel for assistance.\r\n",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1671471780
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70085"
+            },
+            {
+              "stop_id": "70086"
+            },
+            {
+              "stop_id": "door-jfk-columbia"
+            }
+          ]
+        }
+      },
+      {
+        "id": "479067",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The new Pawtucket/Central Falls station (Zone 8) will open for service on Monday, January 23rd. A new Providence Line schedule will go into effect on the same day as a result. The new Providence Line Fall/Winter schedule is available online.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "The station is located at 300 Pine Street in Pawtucket, RI, 02860",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1671823680
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Providence"
+            }
+          ]
+        }
+      },
+      {
+        "id": "479637",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Prudential Escalator 152 (Heath Street platform to lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1672319971
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70239"
+            }
+          ]
+        }
+      },
+      {
+        "id": "479681",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Summer St @ Drydock Ave is now the new last stop on the Route 4 inbound and the first stop on the Route 4 outbound.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1672344316
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "480250",
+        "alert": {
+          "effect": "MODIFIED_SERVICE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SCHEDULE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Mon, January 23, a new Franklin/Foxboro Line schedule will go into effect. This schedule adjustment will prevent train traffic between Readville & South Station after the opening of Pawtucket station (Prov Line) and offer improved on-time performance. ",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "The new Franklin/Foxboro Line Winter schedule is now available online and in South Station or Back Bay.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1674466200
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Franklin"
+            }
+          ]
+        }
+      },
+      {
+        "id": "480441",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Buses will replace regular weekday & weekend train service between Haverhill & Reading from Feb 4 through Feb 12 & from March 4 through March 12 to allow for signal improvement work. Normal train service will operate between Reading & North Station.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "-A dedicated schedule will be in effect during the disruption. \r\n-Buses will be accessible, but bikes are not allowed on board.\r\n-Buses will be free but passengers are expected to purchase regular fares for travel between Reading and North Station.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "url": {
+            "translation": [
+              {
+                "text": "https://www.mbta.com/projects/commuter-rail-safety-and-resiliency-program",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1675541520,
+              "end": 1678734780
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Haverhill"
+            }
+          ]
+        }
+      },
+      {
+        "id": "480889",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ELEVATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Harvard Elevator 821 (Lobby to Harvard Square) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "To exit, use Harvard Elevator 973 located at the end of upper busway. To board, use Harvard Elevator 973 located at the corner of Brattle St and Brattle Sq.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1673309371
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "2076"
+            },
+            {
+              "stop_id": "20761"
+            },
+            {
+              "stop_id": "door-harsq-square"
+            }
+          ]
+        }
+      },
+      {
+        "id": "480941",
+        "alert": {
+          "effect": "STOP_MOVED",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_MOVE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Route 71 & 73 stop at Mt Auburn St @ Mt Auburn Hospital will be moving opposite Channing St due to construction on Jan 14 - 15, Jan 21 - 22, and Jan 28 - 29. Riders can use the temporary stop or Mt Auburn St opp Sparks St. ",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1674293400,
+              "end": 1674372600
+            },
+            {
+              "start": 1674379800,
+              "end": 1674459000
+            },
+            {
+              "start": 1674898200,
+              "end": 1674977400
+            },
+            {
+              "start": 1674984600,
+              "end": 1675063800
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "71",
+              "stop_id": "2070"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "73",
+              "stop_id": "2070"
+            }
+          ]
+        }
+      },
+      {
+        "id": "481051",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 85 detoured due to construction and is omitting Spring Hill. Service will originate and terminate at Summer St @ School St. ",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected direction: Outbound\r\n\r\nAffected stops:\r\n117 Summer St\r\nSummer St opp Carter Terr\r\nAvon St @ Central St",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1673443800
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "85",
+              "stop_id": "2519",
+              "direction_id": 0
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "85",
+              "stop_id": "2532",
+              "direction_id": 0
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "85",
+              "stop_id": "2534",
+              "direction_id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "481184",
+        "alert": {
+          "effect": "DETOUR",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DETOUR",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 120 inbound is detoured due to Maverick St being closed between Orleans St and Bremen St. No stops are missed, but allow extra time. ",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected direction: Inbound",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1673533244
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "120",
+              "direction_id": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "481200",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Back Bay Escalator 144 (Commuter Rail track 2 to lobby) unavailable from Mon Jan 23 through Tue Jan 24 due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674466200,
+              "end": 1674631800
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "NEC-2276"
+            },
+            {
+              "stop_id": "NEC-2276-02"
+            }
+          ]
+        }
+      },
+      {
+        "id": "481251",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DELAY",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Orange Line: Riders will experience longer wait times while we operate with a reduced fleet. We appreciate our riders' patience as we work to address the issue and apologize for any inconvenience",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1673568632
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Orange"
+            }
+          ]
+        }
+      },
+      {
+        "id": "481283",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ELEVATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Porter Elevator 987 (Red Line platforms to lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "For continued service, find station personnel or use a station call box to request the shuttle bus to Davis.",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1673608740
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70065"
+            },
+            {
+              "stop_id": "70066"
+            }
+          ]
+        }
+      },
+      {
+        "id": "481547",
+        "alert": {
+          "effect": "NO_SERVICE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STATION_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The Green Line and Orange Line will be bypassing Haymarket station in both directions this weekend, Jan 21 - 22, to allow for work on the Government Center Garage demolition project. An accessible shuttle will be available upon demand.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Please see station personnel or use a station call box to request shuttle service. ",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1674293400,
+              "end": 1674459000
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-B",
+              "stop_id": "70203"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-B",
+              "stop_id": "70204"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-C",
+              "stop_id": "70203"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-C",
+              "stop_id": "70204"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-D",
+              "stop_id": "70203"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-D",
+              "stop_id": "70204"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-E",
+              "stop_id": "70203"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 0,
+              "route_id": "Green-E",
+              "stop_id": "70204"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Orange",
+              "stop_id": "70024"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 1,
+              "route_id": "Orange",
+              "stop_id": "70025"
+            }
+          ]
+        }
+      },
+      {
+        "id": "481606",
+        "alert": {
+          "effect": "UNKNOWN_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "SERVICE_CHANGE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Contrary to previous communications, the station entrances at Natick Center Station will not be relocated to Washington Street on January 23. Passengers should continue to use the North Avenue and Walnut Street entrances until further notice.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "url": {
+            "translation": [
+              {
+                "text": "https://mbta.com/natickcenter ",
+                "language": "en"
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": 1673884980
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Worcester",
+              "stop_id": "WML-0177"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482135",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Ruggles Escalator 136 (Orange Line platform to upper lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674208292
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70010"
+            },
+            {
+              "stop_id": "70011"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482140",
+        "alert": {
+          "effect": "STOP_MOVED",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_MOVE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The stop at Dalton St @ Boylston St will be moving to Dalton St @ Belvidere St in front of the Sheraton Hotel beginning Jan 21, until further notice, due to construction.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "INFO",
+          "active_period": [
+            {
+              "start": 1674293400,
+              "end": 1693549800
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "55",
+              "stop_id": "11390"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "57",
+              "stop_id": "11390"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482190",
+        "alert": {
+          "effect": "NO_SERVICE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "STOP_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "CONSTRUCTION",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "CONSTRUCTION",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "The stop at Highland Ave @ Central St will be closed the week of Jan 23 - 27 for road work. Use the stops at Highland Ave @ Benton Rd or Highland Ave @ Trull Ln as alternatives.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected routes:\r\n88\r\n90",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674466200,
+              "end": 1674891000
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "88",
+              "stop_id": "2682"
+            },
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "90",
+              "stop_id": "2682"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482192",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "North Station Escalator 393 (Oak Grove platform to Causeway Street lobby) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674237691
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "70027"
+            },
+            {
+              "stop_id": "door-north-causewaye"
+            },
+            {
+              "stop_id": "door-north-causeways"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482267",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Courthouse Escalator 412 (Lobby to mezzanine) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674294331
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "74612"
+            },
+            {
+              "stop_id": "74616"
+            },
+            {
+              "stop_id": "door-crtst-south"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482268",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Courthouse Escalator 418 (Lobby to Seaport Boulevard, Fan Pier Boulevard) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674294331
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "74612"
+            },
+            {
+              "stop_id": "74616"
+            },
+            {
+              "stop_id": "door-crtst-north"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482269",
+        "alert": {
+          "effect": "ACCESSIBILITY_ISSUE",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "ESCALATOR_CLOSURE",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "MAINTENANCE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "MAINTENANCE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Charles/MGH Escalator 425 (Lobby to Ashmont/Braintree platform) unavailable due to maintenance",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674296611
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": "door-chmnl-main"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482276",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DELAY",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 73 experiencing delays of up to 20 minutes",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674303148,
+              "end": 1674326915
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "73"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482278",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DELAY",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "TECHNICAL_PROBLEM",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "DISABLED_BUS",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 240 experiencing delays of up to 20 minutes due to disabled bus",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674305598,
+              "end": 1674326915
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "240"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482280",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DELAY",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "OTHER_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "TRAFFIC",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 101 experiencing delays of up to 20 minutes due to traffic",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674312664,
+              "end": 1674326915
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "101"
+            }
+          ]
+        }
+      },
+      {
+        "id": "482281",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DELAY",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Lowell Line Train 1305 (10:30 am from North Station) is operating 5-15 minutes late between Anderson/Woburn and Lowell. ",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected direction: Outbound",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674317063,
+              "end": 1674321300
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Lowell",
+              "trip": {
+                "route_id": "CR-Lowell",
+                "trip_id": "CR-552024-1305",
+                "direction_id": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "482282",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DELAY",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "UNKNOWN_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "UNKNOWN_CAUSE",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Haverhill Line Train 1204 (10:35 am from Haverhill) is operating 5-15 minutes behind schedule between Andover and North Station.",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "Affected direction: Inbound",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "WARNING",
+          "active_period": [
+            {
+              "start": 1674317065,
+              "end": 1674322980
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 2,
+              "route_id": "CR-Haverhill",
+              "trip": {
+                "route_id": "CR-Haverhill",
+                "trip_id": "CR-553907-1204",
+                "direction_id": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "482283",
+        "alert": {
+          "effect": "OTHER_EFFECT",
+          "effect_detail": {
+            "translation": [
+              {
+                "text": "DELAY",
+                "language": "en"
+              }
+            ]
+          },
+          "cause": "OTHER_CAUSE",
+          "cause_detail": {
+            "translation": [
+              {
+                "text": "TRAFFIC",
+                "language": "en"
+              }
+            ]
+          },
+          "header_text": {
+            "translation": [
+              {
+                "text": "Route 1 experiencing delays of up to 25 minutes due to traffic",
+                "language": "en"
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": "",
+                "language": "en"
+              }
+            ]
+          },
+          "severity_level": "SEVERE",
+          "active_period": [
+            {
+              "start": 1674319494,
+              "end": 1674326915
+            }
+          ],
+          "informed_entity": [
+            {
+              "agency_id": "1",
+              "route_type": 3,
+              "route_id": "1"
+            }
+          ]
+        }
+      }
+    ]
+  }

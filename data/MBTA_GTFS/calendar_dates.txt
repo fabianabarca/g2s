@@ -1,0 +1,69 @@
+service_id,date,exception_type,holiday_name
+FLL 22-N-Wdy-1-S6d,20230202,1,
+RTL123-7-Wdy-01,20230202,1,
+FLL 22-N-Wdy-1-S6d,20230203,1,
+RTL123-7-Wdy-01,20230203,1,
+LRV123-2-Sa-01,20230204,1,
+RTL123-3-Sa-01,20230204,1,
+FLL 22-N-Wdy-1-S6d,20230206,1,
+FLL 22-N-Wdy-1-S6d,20230207,1,
+FLL 22-N-Su-1-S6d,20230212,2,
+BUS123-6-Wdy-02,20230220,2,Presidents' Day
+FLL 22-N-Sa-1-S72,20230220,1,Presidents' Day
+FLL 22-N-Sa-1-S9f,20230220,1,Presidents' Day
+FLL 22-N-Wdy-1-S6d,20230220,2,Presidents' Day
+FLL 22-N-Wdy-1-S72,20230220,2,Presidents' Day
+FLL 22-N-Wdy-1-S9f,20230220,2,Presidents' Day
+FLL 22-S-Sa-1,20230220,1,Presidents' Day
+FLL 22-S-Sa-1-S86,20230220,1,Presidents' Day
+FLL 22-S-Sa-1-S8f,20230220,1,Presidents' Day
+FLL 22-S-Sa-1-Sb4,20230220,1,Presidents' Day
+FLL 22-S-Sa-1-Sb6,20230220,1,Presidents' Day
+FLL 22-S-Sa-1-Sc0,20230220,1,Presidents' Day
+FLL 22-S-Sa-16,20230220,1,Presidents' Day
+FLL 22-S-Wdy-1,20230220,2,Presidents' Day
+FLL 22-S-Wdy-1-S8f,20230220,2,Presidents' Day
+FLL 22-S-Wdy-1-Sb4,20230220,2,Presidents' Day
+FLL 22-S-Wdy-1-Sb6,20230220,2,Presidents' Day
+FLL 22-S-Wdy-1-Sc0,20230220,2,Presidents' Day
+FLL 22-S-Wdy-16-S86,20230220,2,Presidents' Day
+FLL 22-S-Wdy-16-Sc5,20230220,2,Presidents' Day
+LRV123-1-Wdy-01,20230220,2,Presidents' Day
+LRV123-4-Wdy-01,20230220,2,Presidents' Day
+PRIV123-1-Wdy-01,20230220,2,Presidents' Day
+PRIV123-2-Sa-01,20230220,1,Presidents' Day
+PRIV123-3-Wdy-01,20230220,2,Presidents' Day
+PRIV123-4-Sa-01,20230220,1,Presidents' Day
+PresidentsDay,20230220,1,Presidents' Day
+RTL123-1-Wdy-01,20230220,2,Presidents' Day
+RTL123-2-Wdy-01,20230220,2,Presidents' Day
+RTL123-7-Wdy-01,20230220,2,Presidents' Day
+WinterWeekday,20230220,2,Presidents' Day
+BUS123-6-Wdy-02,20230221,2,
+WinterWeekday,20230221,2,
+BUS123-6-Wdy-02,20230222,2,
+WinterWeekday,20230222,2,
+BUS123-6-Wdy-02,20230223,2,
+WinterWeekday,20230223,2,
+BUS123-3-Wdy-02,20230224,2,
+WinterWeekday,20230224,2,
+RTL123-8-Sa-01,20230225,2,
+CR-1-1ReadingFebMarShuttle-Std,20230304,1,
+FLL 22-N-Sa-15-S6d,20230304,1,
+CR-1-1ReadingFebMarShuttle-Snd,20230305,1,
+FLL 22-N-Su-15-S6d,20230305,1,
+LRV123-3-Su-01,20230305,1,
+RTL123-4-Su-01,20230305,1,
+RTL123-9-Su-01,20230305,1,
+CR-1-1ReadingFebMarShuttle-Wkd,20230306,1,
+FLL 22-N-Wdy-15-S6d,20230306,1,
+CR-1-1ReadingFebMarShuttle-Wkd,20230307,1,
+FLL 22-N-Wdy-15-S6d,20230307,1,
+CR-1-1ReadingFebMarShuttle-Wkd,20230308,1,
+FLL 22-N-Wdy-15-S6d,20230308,1,
+CR-1-1ReadingFebMarShuttle-Wkd,20230309,1,
+FLL 22-N-Wdy-15-S6d,20230309,1,
+CR-1-1ReadingFebMarShuttle-Wkd,20230310,1,
+FLL 22-N-Wdy-15-S6d,20230310,1,
+CR-1-1ReadingFebMarShuttle-Std,20230311,1,
+FLL 22-N-Sa-15-S6d,20230311,1,
