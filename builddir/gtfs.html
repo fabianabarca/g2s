@@ -1,0 +1,311 @@
+
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GTFS module &mdash; gtfs2series</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.min.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.min.css" type="text/css" />
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Series module" href="series.html" />
+    <link rel="prev" title="User’s Guide" href="guide.html" /> 
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="site-nav-toggle hidden-lg-up"><i class="icon-menu"></i></a>
+            <a class="site-title" href="index.html">
+                gtfs2series
+            </a>
+        </div>
+    </header>
+
+
+<div class="breadcrumbs-outer hidden-xs-down">
+    <div class="container">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="breadcrumbs">
+    
+      <li><a href="index.html">Docs</a></li>
+        
+      <li>GTFS module</li>
+    
+    
+      <li class="breadcrumbs-aside">
+        
+            
+            <a href="_sources/gtfs.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+</div>
+    </div>
+</div>
+    <div class="main-outer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 site-nav">
+                    
+<div role="search">
+    <form class="search" action="search.html" method="get">
+        <div class="icon-input">
+            <input type="text" name="q" placeholder="Search" />
+            <span class="icon-search"></span>
+        </div>
+        <input type="submit" value="Go" class="d-hidden" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+                    <div class="site-nav-tree">
+                        
+                            
+                            
+                                <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about.html">About GTFS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about.html#gtfs-schedule">GTFS Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#gtfs-realtime">GTFS Realtime</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide.html">User’s Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#sample-data">Sample Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#importing-gtfs-data">Importing GTFS Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#multivariate-time-series">Multivariate Time Series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#common-workflows">Common Workflows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GTFS module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#gtfs2series.gtfs.TransitData"><code class="docutils literal notranslate"><span class="pre">TransitData</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gtfs2series.gtfs.import_realtime"><code class="docutils literal notranslate"><span class="pre">import_realtime()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gtfs2series.gtfs.import_schedule"><code class="docutils literal notranslate"><span class="pre">import_schedule()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gtfs2series.gtfs.realtime_data_collection"><code class="docutils literal notranslate"><span class="pre">realtime_data_collection()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gtfs2series.gtfs.sample_data"><code class="docutils literal notranslate"><span class="pre">sample_data()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="series.html">Series module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="series.html#gtfs2series.series.TimeSeries"><code class="docutils literal notranslate"><span class="pre">TimeSeries</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="series.html#gtfs2series.series.create"><code class="docutils literal notranslate"><span class="pre">create()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="series.html#gtfs2series.series.plot"><code class="docutils literal notranslate"><span class="pre">plot()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+                            
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="document">
+                        
+                            
+  <section id="gtfs-module">
+<h1>GTFS module<a class="headerlink" href="#gtfs-module" title="Permalink to this heading">¶</a></h1>
+<p>Este módulo determina los parámetros de los datos de un sistema M/M/s.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Los datos analizados especifican el tiempo de llegada (en segundos desde el inicio de la simulación) de los primeros  𝑁  clientes de un sistema, el intervalo de tiempo (segundos) entre el cliente y el anterior y la duración del servicio (segundos) prestado a cada uno.</p>
+</div>
+<span class="target" id="module-gtfs2series.gtfs"></span><dl class="py class">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.TransitData">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">gtfs2series.gtfs.</span></span><span class="sig-name descname"><span class="pre">TransitData</span></span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#TransitData"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.TransitData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class to store GTFS data.</p>
+<p>This class offers methods to import GTFS data.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.TransitData.check">
+<span class="sig-name descname"><span class="pre">check</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#TransitData.check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.TransitData.check" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.TransitData.summary">
+<span class="sig-name descname"><span class="pre">summary</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#TransitData.summary"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.TransitData.summary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.TransitData.view">
+<span class="sig-name descname"><span class="pre">view</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#TransitData.view"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.TransitData.view" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.import_realtime">
+<span class="sig-prename descclassname"><span class="pre">gtfs2series.gtfs.</span></span><span class="sig-name descname"><span class="pre">import_realtime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#import_realtime"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.import_realtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Imports a snapshot of GTFS Realtime data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>file_name</strong> (<em>string</em>) – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>gtfs_realtime</strong> – A GTFS object with the payload data and other .</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>object</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">g2s</span><span class="o">.</span><span class="n">gtfs</span><span class="o">.</span><span class="n">import_schedule</span><span class="p">(</span><span class="s1">&#39;gtfs_schedule.zip&#39;</span><span class="p">)</span>
+<span class="go">&lt;gtfs2series.gtfs.GTFS object at 0x7f8b8c0b7f98&gt;</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ValueError</strong> – If the file is not a .zip file.</p>
+</dd>
+<dt class="field-even">Warns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>UserWarning</strong> – If the GTFS Schedule data has not been imported yet.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.import_schedule">
+<span class="sig-prename descclassname"><span class="pre">gtfs2series.gtfs.</span></span><span class="sig-name descname"><span class="pre">import_schedule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#import_schedule"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.import_schedule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Imports a GTFS .zip file and creates a GTFS object.</p>
+<p>The .zip file must contain the following files:</p>
+<ul class="simple">
+<li><p>agency.txt</p></li>
+<li><p>stops.txt</p></li>
+<li><p>routes.txt</p></li>
+<li><p>trips.txt</p></li>
+</ul>
+<p>Those files will be read and stored in a GTFS object, all others will be ignored.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>file_name</strong> (<em>string</em>) – </p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>gtfs_schedule</strong> – A dictionary where the key is the name of the file and its value is a Pandas DataFrame with its contents.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dictionary</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">g2s</span><span class="o">.</span><span class="n">gtfs</span><span class="o">.</span><span class="n">import_schedule</span><span class="p">(</span><span class="s1">&#39;gtfs_schedule.zip&#39;</span><span class="p">)</span>
+<span class="go">&lt;gtfs2series.gtfs.GTFS object at 0x7f8b8c0b7f98&gt;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.realtime_data_collection">
+<span class="sig-prename descclassname"><span class="pre">gtfs2series.gtfs.</span></span><span class="sig-name descname"><span class="pre">realtime_data_collection</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">interval</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#realtime_data_collection"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.realtime_data_collection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Collects GTFS Realtime data and stores it on a database.</p>
+<p>This is a process that runs in the background and updates the GTFS Realtime data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>x</strong> (<em>int</em>) – Descripción del parámetro.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="gtfs2series.gtfs.sample_data">
+<span class="sig-prename descclassname"><span class="pre">gtfs2series.gtfs.</span></span><span class="sig-name descname"><span class="pre">sample_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gtfs2series/gtfs.html#sample_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#gtfs2series.gtfs.sample_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provides sample data to test the package.</p>
+<p>Upon</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>x</strong> (<em>int</em>) – This is the description.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>GTFS</strong> – An object holding GTFS Schedule and Realtime data gathered from MBTA.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>TransitData object</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">td</span> <span class="o">=</span> <span class="n">g2s</span><span class="o">.</span><span class="n">gtfs</span><span class="o">.</span><span class="n">sample_data</span><span class="p">()</span>
+<span class="go">&lt;gtfs2series.gtfs.TransitData object at 0x7f8b8c0b7f98&gt;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'v0.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/sphinx_highlight.js"></script>
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+    <div class="footer" role="contentinfo">
+        <div class="container">
+            &#169; Copyright 2023, Fabián Abarca.
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 6.1.1.
+        </div>
+    </div>  
+
+</body>
+</html>

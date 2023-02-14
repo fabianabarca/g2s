@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>About GTFS &mdash; gtfs2series</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.min.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.min.css" type="text/css" />
+    <link rel="author" title="About these documents" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" />
+    <link rel="prev" title="gtfs2series Documentation" href="index.html" /> 
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="site-nav-toggle hidden-lg-up"><i class="icon-menu"></i></a>
+            <a class="site-title" href="index.html">
+                gtfs2series
+            </a>
+        </div>
+    </header>
+
+
+<div class="breadcrumbs-outer hidden-xs-down">
+    <div class="container">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="breadcrumbs">
+    
+      <li><a href="index.html">Docs</a></li>
+        
+      <li>About GTFS</li>
+    
+    
+      <li class="breadcrumbs-aside">
+        
+            
+            <a href="_sources/about.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+</div>
+    </div>
+</div>
+    <div class="main-outer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 site-nav">
+                    
+<div role="search">
+    <form class="search" action="search.html" method="get">
+        <div class="icon-input">
+            <input type="text" name="q" placeholder="Search" />
+            <span class="icon-search"></span>
+        </div>
+        <input type="submit" value="Go" class="d-hidden" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+                    <div class="site-nav-tree">
+                        
+                            
+                            
+                                <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">About GTFS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#gtfs-schedule">GTFS Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gtfs-realtime">GTFS Realtime</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide.html">User’s Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#sample-data">Sample Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#importing-gtfs-data">Importing GTFS Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#multivariate-time-series">Multivariate Time Series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#common-workflows">Common Workflows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guide.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gtfs.html">GTFS module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gtfs.html#gtfs2series.gtfs.TransitData"><code class="docutils literal notranslate"><span class="pre">TransitData</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gtfs.html#gtfs2series.gtfs.import_realtime"><code class="docutils literal notranslate"><span class="pre">import_realtime()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gtfs.html#gtfs2series.gtfs.import_schedule"><code class="docutils literal notranslate"><span class="pre">import_schedule()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gtfs.html#gtfs2series.gtfs.realtime_data_collection"><code class="docutils literal notranslate"><span class="pre">realtime_data_collection()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gtfs.html#gtfs2series.gtfs.sample_data"><code class="docutils literal notranslate"><span class="pre">sample_data()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="series.html">Series module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="series.html#gtfs2series.series.TimeSeries"><code class="docutils literal notranslate"><span class="pre">TimeSeries</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="series.html#gtfs2series.series.create"><code class="docutils literal notranslate"><span class="pre">create()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="series.html#gtfs2series.series.plot"><code class="docutils literal notranslate"><span class="pre">plot()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+                            
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="document">
+                        
+                            
+  <section id="about-gtfs">
+<h1>About GTFS<a class="headerlink" href="#about-gtfs" title="Permalink to this heading">¶</a></h1>
+<p>GTFS (<em>General Transit Feed Specification</em>) was developed for…</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>GTFS is a specification, not a database. It is a set of rules that define how transit agencies should publish their data. The data itself is published in a set of CSV-like files.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>This package uses GTFS revised May 9, 2022.</p>
+</div>
+<dl class="simple">
+<dt>GTFS Schedule</dt><dd><p>Includes agency information and</p>
+</dd>
+<dt>GTFS Realtime</dt><dd><p>Collects and publishes information from on-board equipments like GPS for real-time location, and also from administrative entities, like agencies and emergency services, for service updates and service alerts.</p>
+</dd>
+</dl>
+<section id="gtfs-schedule">
+<h2>GTFS Schedule<a class="headerlink" href="#gtfs-schedule" title="Permalink to this heading">¶</a></h2>
+<p>This is the information.</p>
+</section>
+<section id="gtfs-realtime">
+<h2>GTFS Realtime<a class="headerlink" href="#gtfs-realtime" title="Permalink to this heading">¶</a></h2>
+<p>GTFS Realtime provides</p>
+<ul class="simple">
+<li><p>data generated from on-board equipment including real-time location</p></li>
+</ul>
+<p>Structure of a message:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>header</dt><dd><ul>
+<li><p>gtfs_realtime_version</p></li>
+<li><p>incrementality</p></li>
+<li><p>timestamp</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>entity</dt><dd><ul>
+<li><p>id</p></li>
+<li><p>is_deleted</p></li>
+<li><p>trip_update</p></li>
+<li><p>vehicle</p></li>
+<li><p>alert</p></li>
+<li><p>shape</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>In this sense, a single <code class="docutils literal notranslate"><span class="pre">FeedMessage</span></code> contains a <code class="docutils literal notranslate"><span class="pre">FeedHeader</span></code> and one or many <code class="docutils literal notranslate"><span class="pre">FeedEntity</span></code>.</p>
+<p>There are three supported entities:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TripUpdate</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">VehiclePosition</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Alert</span></code></p></li>
+</ul>
+<p>This package obtains information from the <code class="docutils literal notranslate"><span class="pre">VehiclePosition</span></code> entity.</p>
+<p>The entity <code class="docutils literal notranslate"><span class="pre">VehiclePosition</span></code> contains the following fields:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">trip</span></code>: The Trip that this vehicle is serving. Can be empty or partial if the vehicle can not be identified with a given trip instance.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vehicle</span></code>: Additional information on the vehicle that is serving this trip.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">position</span></code>: The current position of this vehicle.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">current_stop_sequence</span></code>: The stop sequence index of the current stop. The meaning of <code class="docutils literal notranslate"><span class="pre">current_stop_sequence</span></code> (i.e., the stop that it refers to) is determined by <code class="docutils literal notranslate"><span class="pre">current_status</span></code>. If <code class="docutils literal notranslate"><span class="pre">current_status</span></code> is missing, <code class="docutils literal notranslate"><span class="pre">IN_TRANSIT_TO</span></code> is assumed.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">stop_id</span></code>: The ID of the current stop. Must be the same as in stops.txt in the corresponding GTFS feed.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">current_status</span></code>: The exact status of the vehicle with respect to the current stop. Ignored if <code class="docutils literal notranslate"><span class="pre">current_stop_sequence</span></code> is missing.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">timestamp</span></code>: Moment at which the vehicle’s position was measured. In POSIX time (i.e., number of seconds since January 1st 1970 00:00:00 UTC).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">congestion_level</span></code>: Traffic congestion level that is affecting this vehicle.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">occupancy_status</span></code>: The degree of passenger occupancy of the vehicle.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">occupancy_percentage</span></code>: The degree of passenger occupancy of the vehicle as a percentage. This field is an alternative to <code class="docutils literal notranslate"><span class="pre">occupancy_status</span></code>, and will take precedence if both are populated. Valid values are between 0 and 100, inclusive.</p></li>
+</ul>
+<p>Along with the <code class="docutils literal notranslate"><span class="pre">timestamp</span></code>, any of these values can be used to create a time series or filter it.</p>
+<p>For example: the package can create a time series containing the occupancy percentage of a vehicle for a certain trip.</p>
+<p>That is:</p>
+<ol class="arabic simple">
+<li><p>Filter by X values</p></li>
+<li><p>Index with timestamp</p></li>
+<li><p>Add Y values</p></li>
+</ol>
+<p>Timestamps: <code class="docutils literal notranslate"><span class="pre">FeedHeader.timestamp</span></code>, <code class="docutils literal notranslate"><span class="pre">FeedEntity.vehicle.timestamp</span></code> and <code class="docutils literal notranslate"><span class="pre">FeedEntity.trip_update.timestamp</span></code> are available for the creation of a time series.</p>
+<p>Service alerts do not have a specific timestamp (other than that of the Realtime message itself).</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">timestamp</span></code> field is the time when the data was generated. The <code class="docutils literal notranslate"><span class="pre">incrementality</span></code> field indicates whether the <code class="docutils literal notranslate"><span class="pre">FeedMessage</span></code> is a complete snapshot of the data or whether it is incremental.</p>
+<p>GTFS v2.0 divides Realtime data into three categories, or “Feed Entities”:</p>
+<dl>
+<dt>Trip Updates</dt><dd><p><em>“Bus X is delayed by 5 minutes”</em></p>
+<p>Represent fluctuations in the timetable.</p>
+</dd>
+<dt>Service Alerts</dt><dd><p><em>“Station Y is closed due to construction”</em></p>
+<p>Represent higher level problems with a particular entity and are generally in the form of a textual description of the disruption.</p>
+</dd>
+<dt>Vehicle Positions</dt><dd><p><em>“This bus is at position X at time Y”</em></p>
+<p>Represents a few basic pieces of information about a particular vehicle on the network.</p>
+</dd>
+</dl>
+<section id="trip-updates">
+<h3>Trip Updates<a class="headerlink" href="#trip-updates" title="Permalink to this heading">¶</a></h3>
+<p>Trip updates are used to provide real-time information about the status of a vehicle in transit. This includes the vehicle’s current stop, the next stop, and the status of the vehicle (e.g., in transit to the next stop, delayed, etc.).</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TripDescriptor</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">VehicleDescriptor</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">StopTimeUpdate</span></code></p></li>
+</ul>
+</section>
+<section id="service-alerts">
+<h3>Service Alerts<a class="headerlink" href="#service-alerts" title="Permalink to this heading">¶</a></h3>
+<p>Service alerts are used to provide real-time information about service disruptions, planned service changes, and other service-related events. These are typically used to provide information about planned service changes, such as detours, route closures, and schedule changes. They can also be used to provide information about unplanned service disruptions, such as traffic accidents, weather-related events, and other service-related events.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TimeRange</span></code></p></li>
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">EntitySelector</span></code></dt><dd><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">TripDescriptor</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Cause</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Effect</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SeverityLevel</span></code></p></li>
+</ul>
+</section>
+<section id="vehicle-position">
+<h3>Vehicle Position<a class="headerlink" href="#vehicle-position" title="Permalink to this heading">¶</a></h3>
+<p>Vehicle positions are used to provide real-time information about the location of vehicles in transit. This information is typically used to provide information about the location of vehicles on a route, and to provide information about the status of vehicles (e.g., in transit to the next stop, delayed, etc.).</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TripDescriptor</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">VehicleDescriptor</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Position</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">VehicleStopStatus</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CongestionLevel</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">OccupancyStatus</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CarriageDetails</span></code></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'v0.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/sphinx_highlight.js"></script>
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+    <div class="footer" role="contentinfo">
+        <div class="container">
+            &#169; Copyright 2023, Fabián Abarca.
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 6.1.1.
+        </div>
+    </div>  
+
+</body>
+</html>
